@@ -14,14 +14,23 @@ namespace MyfirstOOPcode_saturday
         #region Methods
         public Date(int day, int month, int year)
         {            
-            _day=ValidateDay(day,month);
+            _day=ValidateDay(day,month, year);
             _month=ValidateMonth(month);
             _year=ValidateYear(year);
 
         }
 
-        private int ValidateDay(int day , int month)
+        private int ValidateDay(int day , int month, int year)
         {
+
+            if (month == 2 && day == 29 && IspLepYear(year))
+                {
+
+                return day;
+            }
+
+
+
             int[] daysperMonth = {0, 31, 28, 31, 30, 31, 30, 31, 30, 31, 30, 31 };
             if( day >=1 && day <= daysperMonth[month]) {
                 return day; 
@@ -30,6 +39,15 @@ namespace MyfirstOOPcode_saturday
 
 
             throw new dayException();
+        }
+
+
+        private bool IspLepYear(int year) {
+            bool Isleap=(year % 400 == 0 || year % 4==0 && year % 100!=0 );
+
+            
+            return Isleap;
+        
         }
 
         private int ValidateYear(int year)

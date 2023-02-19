@@ -6,7 +6,16 @@ namespace MyfirstOOPcode_saturday
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            try {
+                var Read = new Read_date();
+                var dateobject = new Date(Read.ReadDay(), Read.ReadMonth(), Read.ReadYear());
+                Console.WriteLine(dateobject.ToString());
+            } catch(Exception ex) {
+
+                Console.WriteLine(ex.Message);
+            }
+
+           
         }
     }
 }

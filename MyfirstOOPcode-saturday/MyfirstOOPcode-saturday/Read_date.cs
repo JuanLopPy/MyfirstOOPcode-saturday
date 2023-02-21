@@ -37,6 +37,12 @@ namespace MyfirstOOPcode_saturday
             int year = int.Parse(input);
             return year;
         }
+        public decimal ReadSalary() {
+            Console.WriteLine("Ingrese su salario: ");
+            string input = Console.ReadLine();
+            decimal salary = decimal.Parse(input);
+            return salary;
+        }
 
         #endregion
     }

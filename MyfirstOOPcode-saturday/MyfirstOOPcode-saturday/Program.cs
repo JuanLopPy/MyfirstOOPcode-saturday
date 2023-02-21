@@ -9,6 +9,9 @@ namespace MyfirstOOPcode_saturday
             try {
                 var Read = new Read_date();
                 var dateobject = new Date(Read.ReadDay(), Read.ReadMonth(), Read.ReadYear());
+                SalaryEmployee SalaryEmployeeobjct = new SalaryEmployee();
+                SalaryEmployeeobjct.Salary = Read.ReadSalary();
+                Console.WriteLine(SalaryEmployeeobjct.ToString());
                 Console.WriteLine(dateobject.ToString());
             } catch(Exception ex) {
 

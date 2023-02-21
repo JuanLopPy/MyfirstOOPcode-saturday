@@ -16,16 +16,16 @@ namespace MyfirstOOPcode_saturday
 
         #endregion
         #region methods
-        public abstract int GetValueToPay();
+        public abstract decimal GetValueToPay();
         public override string ToString() {
 
             return $"---EMPLOYEE----\n\t " +
-                $"ID: {Id} \n\t " +
-                $"First Name: {FirstName}\n\t " +
-                $"Last Name: {LastName}\n\t " +
-                $"BirthDay: {BirthDay}\n\t " +
-                $"Hiring Date:{HiringDate}\n\t " +
-                $"is active:{Isactive}"; 
+                $"ID:............... {Id} \n\t " +
+                $"First Name:....... {FirstName}\n\t " +
+                $"Last Name:........ {LastName}\n\t " +
+                $"BirthDay: .........{BirthDay}\n\t " +
+                $"Hiring Date:.......{HiringDate}\n\t " +
+                $"is active:.........{Isactive}"; 
         }
 
         #endregion

@@ -43,6 +43,66 @@ namespace MyfirstOOPcode_saturday
             decimal salary = decimal.Parse(input);
             return salary;
         }
+        public string ReadName() {
+
+            Console.WriteLine("Ingrese su nombre:");
+            string name = Console.ReadLine();
+            return name;
+        }
+        public string ReadLastName()
+        {
+
+            Console.WriteLine("Ingrese su apellido:");
+            string name = Console.ReadLine();
+            return name;
+        }
+        public int ReadDayContrat()
+        {
+
+            Console.WriteLine("Ingrese el día de contratación: ");
+            string input = Console.ReadLine();
+            int day = int.Parse(input);
+            return day;
+
+
+        }
+        public int ReadMonthContrat()
+        {
+            Console.WriteLine("Ingrese el Mes de contrataciónn: ");
+            string input = Console.ReadLine();
+            int Month = int.Parse(input);
+            return Month;
+        }
+
+        public int ReadYearContrat()
+        {
+
+            Console.WriteLine("Ingrese el año de contratación: ");
+            string input = Console.ReadLine();
+            int year = int.Parse(input);
+            return year;
+        }
+        public string ID()
+        {
+
+            Console.WriteLine("Ingrese su ID: ");
+            string ID = Console.ReadLine();
+            return ID;
+        }
+        public bool IsActive()
+        {
+
+            Console.WriteLine("Ingrese si es activo o no.");
+            string active = Console.ReadLine();
+            if (active!="si")
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+
 
         #endregion
     }

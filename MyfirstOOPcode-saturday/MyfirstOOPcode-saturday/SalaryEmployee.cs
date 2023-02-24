@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MyfirstOOPcode_saturday
 {
-    internal class SalaryEmployee : Employee
+    public class SalaryEmployee : Employee
     {
         #region Properties
         public decimal Salary { get; set; }
@@ -16,7 +16,7 @@ namespace MyfirstOOPcode_saturday
 
         public override string ToString()
         {
-            return $"Value to pay: {GetValueToPay()}";
+            return $"Su salario es: {GetValueToPay()}";
 
         }
 

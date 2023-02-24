@@ -70,7 +70,7 @@ namespace MyfirstOOPcode_saturday
 
         public override string ToString()
         {
-            string date = ("Su fecha de nacimiento es: "+_day +"/"+_month +"/" + _year);
+            string date = (""+_day +"/"+_month +"/" + _year);
             return date;    
              
 

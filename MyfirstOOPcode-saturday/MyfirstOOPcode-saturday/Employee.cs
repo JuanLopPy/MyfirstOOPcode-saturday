@@ -7,7 +7,7 @@ namespace MyfirstOOPcode_saturday
     public abstract class Employee
     {
         #region properties
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Date BirthDay{ get; set; }
@@ -17,15 +17,15 @@ namespace MyfirstOOPcode_saturday
         #endregion
         #region methods
         public abstract decimal GetValueToPay();
-        public override string ToString() {
+        public string String() {
 
-            return $"---EMPLOYEE----\n\t " +
-                $"ID:............... {Id} \n\t " +
-                $"First Name:....... {FirstName}\n\t " +
-                $"Last Name:........ {LastName}\n\t " +
-                $"BirthDay: .........{BirthDay}\n\t " +
-                $"Hiring Date:.......{HiringDate}\n\t " +
-                $"is active:.........{Isactive}"; 
+            return $"------------EMPLOYEE-----------\n\t " +
+            $"ID:............... {Id} \n\t " +
+            $"First Name:....... {FirstName}\n\t " +
+            $"Last Name:........ {LastName}\n\t " +
+            $"BirthDay: .........{BirthDay}\n\t " +
+            $"Hiring Date:.......{HiringDate}\n\t " +
+            $"is active:.........{Isactive}"; 
         }
 
         #endregion

@@ -20,7 +20,7 @@ namespace MyfirstOOPcode_saturday
                 SalaryEmployeeobjct.HiringDate = (dateobject2);
                 SalaryEmployeeobjct.Isactive = Read.IsActive();
                 Console.WriteLine(SalaryEmployeeobjct.ToString());
-                Console.WriteLine(SalaryEmployeeobjct.String()); 
+                 
 
 
 

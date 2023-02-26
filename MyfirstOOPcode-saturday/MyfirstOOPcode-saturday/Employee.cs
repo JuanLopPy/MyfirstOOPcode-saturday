@@ -19,7 +19,7 @@ namespace MyfirstOOPcode_saturday
         public abstract decimal GetValueToPay();
         public string String() {
 
-            return $"------------EMPLOYEE-----------\n\t " +
+            return $"---------------EMPLOYEE------------\n\t " +
             $"ID:............... {Id} \n\t " +
             $"First Name:....... {FirstName}\n\t " +
             $"Last Name:........ {LastName}\n\t " +

@@ -17,7 +17,7 @@ namespace MyfirstOOPcode_saturday
         #endregion
         #region methods
         public abstract decimal GetValueToPay();
-        public string String() {
+        public override string ToString() {
 
             return $"---------------EMPLOYEE------------\n\t " +
             $"ID:............... {Id} \n\t " +

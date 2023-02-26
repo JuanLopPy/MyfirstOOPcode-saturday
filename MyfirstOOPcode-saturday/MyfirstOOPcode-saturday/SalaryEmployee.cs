@@ -16,9 +16,10 @@ namespace MyfirstOOPcode_saturday
 
         public override string ToString()
         {
-            return $"Su salario es: {GetValueToPay()}";
+            return $"{base.ToString()}\n\t"+
+                $"Su salario es: {GetValueToPay()}c2";
 
-        }
+        } 
 
         #region Methods
 

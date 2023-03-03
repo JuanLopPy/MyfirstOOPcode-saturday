@@ -18,8 +18,8 @@ namespace MyfirstOOPcode_saturday
         public override string ToString()
         {
             return $"{base.ToString()}\n\t" +
-                $"Base:...............{Base:c2}\n\t" +
-                $"Total value to pay:.......{GetValueToPay():c2}";
+                $"Salario Base:...............{Base:c2}\n\t" +
+                $"Salario Total:.......{GetValueToPay():c2}";
         }
         #endregion
 

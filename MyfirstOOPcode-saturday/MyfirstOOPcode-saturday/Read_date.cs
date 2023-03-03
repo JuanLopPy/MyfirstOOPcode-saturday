@@ -111,7 +111,7 @@ namespace MyfirstOOPcode_saturday
         public float ReadHours()
         {
 
-            Console.WriteLine("Type your number of hours:  ");
+            Console.WriteLine("Ingresa el número de horas:  ");
             string input = Console.ReadLine();
             float hours = float.Parse(input);
             return hours;
@@ -120,7 +120,7 @@ namespace MyfirstOOPcode_saturday
         public decimal ValueHours()
         {
 
-            Console.WriteLine("Type your value per hour:  ");
+            Console.WriteLine("Ingresa el valor por hora:  ");
             string input = Console.ReadLine();
             decimal hours = decimal.Parse(input);
             return hours;
@@ -129,7 +129,7 @@ namespace MyfirstOOPcode_saturday
         public decimal BaseSalary()
         {
 
-            Console.WriteLine("Type your salary  ");
+            Console.WriteLine("Ingresa el salario:  ");
             string input = Console.ReadLine();
             decimal salary = decimal.Parse(input);
             return salary;

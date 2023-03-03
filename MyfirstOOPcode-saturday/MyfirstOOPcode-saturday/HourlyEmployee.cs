@@ -23,9 +23,9 @@ namespace MyfirstOOPcode_saturday
         {
 
             return $"{base.ToString()}\n\t" +
-                $"Hours: {Hours:N2}\n\t" +
-                $"Value:...................{HourValue:N2}\n\t" +
-                $"Value to pay:............{GetValueToPay():c2}";
+                $"Horas: {Hours:N2}\n\t" +
+                $"Valor de la hora:...................{HourValue:N2}\n\t" +
+                $"Salario total:......................{GetValueToPay():c2}";
         }
 
         #region methods

@@ -40,6 +40,20 @@ namespace MyfirstOOPcode_saturday
                 };
                 Console.WriteLine(CommisionEmployee.ToString());
 
+                HourlyEmployee HourlyEmployee = new HourlyEmployee()
+                {
+                    Id = Read.ID(),
+                    FirstName = Read.ReadName(),
+                    LastName = Read.ReadLastName(),
+                    BirthDay = (dateobject),
+                    HiringDate = (dateobject2),
+                    Isactive = Read.IsActive(),
+                    Hours=Read.ReadHours(),
+                    HourValue=Read.ValueHours(),
+
+
+                };
+                Console.WriteLine(CommisionEmployee.ToString());
 
 
 
@@ -62,7 +76,9 @@ namespace MyfirstOOPcode_saturday
 
 
 
-            } catch(Exception ex) {
+
+            }
+            catch (Exception ex) {
 
                 Console.WriteLine(ex.Message);
             }

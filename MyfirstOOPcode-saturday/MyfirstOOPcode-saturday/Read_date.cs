@@ -108,6 +108,24 @@ namespace MyfirstOOPcode_saturday
 
             return true;
         }
+        public float ReadHours()
+        {
+
+            Console.WriteLine("Type your number of hours:  ");
+            string input = Console.ReadLine();
+            float hours = float.Parse(input);
+            return hours;
+
+        }
+        public decimal ValueHours()
+        {
+
+            Console.WriteLine("Type your value per hour:  ");
+            string input = Console.ReadLine();
+            decimal hours = decimal.Parse(input);
+            return hours;
+
+        }
 
 
 

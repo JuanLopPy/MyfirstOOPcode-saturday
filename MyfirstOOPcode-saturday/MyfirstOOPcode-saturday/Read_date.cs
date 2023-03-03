@@ -73,7 +73,14 @@ namespace MyfirstOOPcode_saturday
             int Month = int.Parse(input);
             return Month;
         }
+        public double ComisionPorcentage() 
+        {
 
+            Console.WriteLine("Ingresa tu comisión en porcentaje ");
+            string input = Console.ReadLine();
+            double Comision = double.Parse(input);
+            return Comision;
+        }
         public int ReadYearContrat()
         {
 

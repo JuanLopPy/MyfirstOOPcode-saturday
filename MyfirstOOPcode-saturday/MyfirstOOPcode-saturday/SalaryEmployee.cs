@@ -17,7 +17,7 @@ namespace MyfirstOOPcode_saturday
         public override string ToString()
         {
             return $"{base.ToString()}\n\t"+
-                $"Su salario es: {GetValueToPay()}c2";
+                $"Su salario es...... {GetValueToPay()}c2";
 
         } 
 

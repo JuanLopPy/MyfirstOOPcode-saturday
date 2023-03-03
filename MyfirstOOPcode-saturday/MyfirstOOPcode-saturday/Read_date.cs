@@ -126,7 +126,15 @@ namespace MyfirstOOPcode_saturday
             return hours;
 
         }
+        public decimal BaseSalary()
+        {
 
+            Console.WriteLine("Type your salary  ");
+            string input = Console.ReadLine();
+            decimal salary = decimal.Parse(input);
+            return salary;
+
+        }
 
 
         #endregion

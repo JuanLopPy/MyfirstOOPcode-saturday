@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MyfirstOOPcode_saturday
 {
-    public class HourlyEmployee :Employee
+    public class HourlyEmployee:Employee
     {
         #region properties
         public float Hours { get; set; }
@@ -24,8 +24,8 @@ namespace MyfirstOOPcode_saturday
 
             return $"{base.ToString()}\n\t" +
                 $"Hours: {Hours:N2}\n\t" +
-                $"Value....................{HourValue:N2}\n\t" +
-                $"Value to pay...................{GetValueToPay():c2}";
+                $"Value:...................{HourValue:N2}\n\t" +
+                $"Value to pay:............{GetValueToPay():c2}";
         }
 
         #region methods

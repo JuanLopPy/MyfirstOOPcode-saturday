@@ -21,9 +21,9 @@ namespace MyfirstOOPcode_saturday
         public override string ToString()
         {
             return $"{base.ToString()}\n\t" +
-                 $"Comission Percentage {comissionPorcenteje}%\n\t" +
-                 $"Sales....................{sales:c2}\n\t" +
-                 $"Value to pay...................{GetValueToPay():c2}";
+                 $"Comission Percentage:.... {comissionPorcenteje}%\n\t" +
+                 $"Sales:....................{sales:c2}\n\t" +
+                 $"Value to pay:.............{GetValueToPay():c2}";
 
         }
    

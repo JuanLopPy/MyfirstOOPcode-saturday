@@ -13,10 +13,10 @@ namespace MyfirstOOPcode_saturday
         }
         public int ReadDay()
         {
-            
+
             Console.WriteLine("Ingrese el día de nacimiento: ");
-            string input= Console.ReadLine();
-            int day=int.Parse(input);
+            string input = Console.ReadLine();
+            int day = int.Parse(input);
             return day;
 
 
@@ -25,25 +25,27 @@ namespace MyfirstOOPcode_saturday
         {
             Console.WriteLine("Ingrese el Mes de nacimiento: ");
             string input = Console.ReadLine();
-            int Month=int.Parse(input);
+            int Month = int.Parse(input);
             return Month;
         }
-       
+
         public int ReadYear()
         {
-            
+
             Console.WriteLine("Ingrese el año de nacimiento: ");
             string input = Console.ReadLine();
             int year = int.Parse(input);
             return year;
         }
-        public decimal ReadSalary() {
+        public decimal ReadSalary()
+        {
             Console.WriteLine("Ingrese su salario: ");
             string input = Console.ReadLine();
             decimal salary = decimal.Parse(input);
             return salary;
         }
-        public string ReadName() {
+        public string ReadName()
+        {
 
             Console.WriteLine("Ingrese su nombre:");
             string name = Console.ReadLine();
@@ -73,7 +75,7 @@ namespace MyfirstOOPcode_saturday
             int Month = int.Parse(input);
             return Month;
         }
-        public double ComisionPorcentage() 
+        public double ComisionPorcentage()
         {
 
             Console.WriteLine("Ingresa tu comisión en porcentaje ");
@@ -101,7 +103,7 @@ namespace MyfirstOOPcode_saturday
 
             Console.WriteLine("Ingrese si es activo o no.");
             string active = Console.ReadLine();
-            if (active!="si")
+            if (active != "si")
             {
                 return false;
             }
@@ -135,8 +137,32 @@ namespace MyfirstOOPcode_saturday
             return salary;
 
         }
+        public string Description()
+        {
+
+            Console.WriteLine("Ingrese la descripción del producto: ");
+            string des = Console.ReadLine();
+            return des;
+        }
+        public decimal Price()
+        {
+
+            Console.WriteLine("Ingresa el precio:  ");
+            string input = Console.ReadLine();
+            decimal price = decimal.Parse(input);
+            return price;
 
 
+        }
+
+        public int Cantidad()
+        {
+
+            Console.WriteLine("Ingrese la cantidad: ");
+            string input = Console.ReadLine();
+            int quantity = int.Parse(input);
+            return quantity;
+        }
         #endregion
     }
-} 
+}

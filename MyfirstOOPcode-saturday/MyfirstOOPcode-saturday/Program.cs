@@ -11,8 +11,8 @@ namespace MyfirstOOPcode_saturday
             {
                 var Read = new Read_date();
 
-              //  Date dateobject = new Date(Read.ReadDay(), Read.ReadMonth(), Read.ReadYear());
-               // Date dateobject2 = new Date(Read.ReadDayContrat(), Read.ReadMonthContrat(), Read.ReadYearContrat());
+              Date dateobject = new Date(Read.ReadDay(), Read.ReadMonth(), Read.ReadYear());
+               Date dateobject2 = new Date(Read.ReadDayContrat(), Read.ReadMonthContrat(), Read.ReadYearContrat());
 
                 SalaryEmployee SalaryEmployeeobjct = new SalaryEmployee()
                 {
@@ -20,8 +20,8 @@ namespace MyfirstOOPcode_saturday
                     FirstName = Read.ReadName(),
                     LastName = Read.ReadLastName(),
                     Salary = Read.ReadSalary(),
-                   // BirthDay = (dateobject),
-                   // HiringDate = (dateobject2),
+                   BirthDay = (dateobject),
+                   HiringDate = (dateobject2),
                     Isactive = Read.IsActive(),
 
 
@@ -34,30 +34,30 @@ namespace MyfirstOOPcode_saturday
                     Id = Read.ID(),
                     FirstName = Read.ReadName(),
                     LastName = Read.ReadLastName(),
-                    //BirthDay = (dateobject),
-                   // HiringDate = (dateobject2),
+                    BirthDay = (dateobject),
+                    HiringDate = (dateobject2),
                     Isactive = Read.IsActive(),
                     comissionPorcenteje = Read.ComisionPorcentage(),
                     sales = Read.ReadSalary(),
 
 
                 };
-                // Console.WriteLine(CommisionEmployee.ToString());
+                Console.WriteLine("Empleado por hora");
 
                 HourlyEmployee HourlyEmployee = new HourlyEmployee()
                 {
                     Id = Read.ID(),
                     FirstName = Read.ReadName(),
                     LastName = Read.ReadLastName(),
-                   // BirthDay = (dateobject),
-                   // HiringDate = (dateobject2),
+                    BirthDay = (dateobject),
+                    HiringDate = (dateobject2),
                     Isactive = Read.IsActive(),
                     Hours = Read.ReadHours(),
                     HourValue = Read.ValueHours(),
 
 
                 };
-                //Console.WriteLine(HourlyEmployee.ToString());
+                Console.WriteLine("Empleado por comisión");
 
 
                 BaseComissionEmployee baseCommisionEmployee = new BaseComissionEmployee()
@@ -65,8 +65,8 @@ namespace MyfirstOOPcode_saturday
                     Id = Read.ID(),
                     FirstName = Read.ReadName(),
                     LastName = Read.ReadLastName(),
-                    //BirthDay = (dateobject),
-                    //HiringDate = (dateobject2),
+                    BirthDay = (dateobject),
+                    HiringDate = (dateobject2),
                     Isactive = Read.IsActive(),
                     comissionPorcenteje = Read.ComisionPorcentage(),
                     sales = Read.ReadSalary(),

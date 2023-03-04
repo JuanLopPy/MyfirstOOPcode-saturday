@@ -155,7 +155,7 @@ namespace MyfirstOOPcode_saturday
 
         }
 
-        public int Cantidad()
+        public int Quantity()
         {
 
             Console.WriteLine("Ingrese la cantidad: ");

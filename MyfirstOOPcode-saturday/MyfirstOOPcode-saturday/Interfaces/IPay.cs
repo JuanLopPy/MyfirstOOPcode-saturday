@@ -4,7 +4,8 @@ using System.Text;
 
 namespace MyfirstOOPcode_saturday.Interfaces
 {
-    internal interface IPay
+    public interface IPay
     {
+        public decimal GetValueToPay();
     }
 }
